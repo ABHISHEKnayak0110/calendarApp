@@ -1,0 +1,50 @@
+
+
+    .calendarWrapper{
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+        font-family: Arial, sans-serif;
+        border: 1px solid #ccc;
+         padding: 3%;
+        background-color: #092e49;
+        color: #FFFFFF;
+         
+      .calendar h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+      
+      .calendargrid {
+        width: 90%;
+        margin-left: 2%;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 0.1%;
+      }
+      
+      .calendarday {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        cursor: pointer;
+      }
+      
+      .calendarday:hover {
+        background-color: gray;
+      }
+      .today{
+        background-color: #FFFFFF;
+        color: #092e49;
+        font-weight: bold;
+        text-align: center;
+      }
+      .emptyday{
+       visibility: hidden;
+      }
+      }
+     
+
