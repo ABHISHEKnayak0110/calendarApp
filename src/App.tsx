@@ -4,8 +4,9 @@ import './App.css';
 import Calendar from './components/Calendar';
 
 function App() {
-  // Always Pass Date Props in MM/DD/YYYY formate beacuse new Date() will work with MM/DD/YYYY formate
-  //  I can handle this but propblem is propsType , for handling error of  Calender component  i have declared date
+  // Always Pass Date Props in MM/DD/YYYY format beacuse new Date() will work with MM/DD/YYYY format
+  //  I can handle this but propblem is propsType , 
+  //For handling error of  Calender component .I have declared props of calendar component as a Date
  
   return (
     <div className="App">
